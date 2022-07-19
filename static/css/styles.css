@@ -171,6 +171,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 .field-checkbox input {
+  display: inline-block;
     width: 20px;
     height: 15px;
     margin-right: 5px; 
@@ -178,6 +179,7 @@ input[type="submit"] {
     min-height: unset;
 }
 .field-checkbox label {
+  display: inline-block;
     display: flex;
     align-items: center;
     margin: 0;
@@ -233,3 +235,16 @@ a.ssolink {
     transform: translateX(0px);
   }
 } 
+.thisOnly{
+  display: table;
+  margin:5px;
+}
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+select{
+  margin: 10px;
+}
